@@ -11,7 +11,8 @@ public class Sunkentower {
 
     public static void main(String[] args) {
         System.out.println("Welcome to Sunken Tower!");
-        System.out.println("We now have git status. This repo is totally legit now. Yeah!!!!!");
+        System.out.println("We have git status. This repo is totally legit.");
+        System.out.println("This is just a test for push number 3");
     }
     
 }
