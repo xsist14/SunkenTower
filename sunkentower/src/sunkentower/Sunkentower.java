@@ -13,6 +13,7 @@ public class Sunkentower {
         System.out.println("Welcome to Sunken Tower!");
         System.out.println("We have git status. This repo is totally legit.");
         System.out.println("This is just a test for push number 3");
+        System.out.println("Myo, help me pull request.");
     }
     
 }
