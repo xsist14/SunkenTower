@@ -7,13 +7,20 @@ package sunkentower;
 
 
 public class Sunkentower {
-
+    
+    public Sunkentower() {
+        
+    }
 
     public static void main(String[] args) {
-        System.out.println("Welcome to Sunken Tower!");
-        System.out.println("We have git status. This repo is totally legit.");
-        System.out.println("This is just a test for push number 3");
-        System.out.println("Myo, help me pull request.");
+        Player bilbo = new Player();
+        Dragon smaug = new Dragon(30);
+        System.out.println("Bilbo has a health level of " + bilbo.getHealthPoints());
+        System.out.println("Smaug has health of " + smaug.getHealthPoints() + 
+                " and does fire damage of " + smaug.getFireBreath());
+        System.out.println("Uh-Oh!");
+        smaug.flying();
+        smaug.roar();
     }
     
 }
